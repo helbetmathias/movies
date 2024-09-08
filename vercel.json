@@ -45,5 +45,13 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://www.vidbinge.com/",  // Replace with the site you want to redirect to
+      "permanent": false
+    }
   ]
 }
+
